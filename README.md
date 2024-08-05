@@ -20,7 +20,7 @@ The dataset used was originally authored by [Jonathan Ortiz](https://data.world/
 [Preprocessing Notebook](HigherEd_Awards_Capstone_Project/HigherED_Awards_Preprocessing.ipynb) 
 
 ## 5. Modelling and Tuning
-[testing/Training Notebook](HigherEd_Awards_Capstone_Project/HigherED_Awards_ClassificationModels.ipynb) 
+[Model Training/Testing Notebook](HigherEd_Awards_Capstone_Project/HigherED_Awards_ClassificationModels.ipynb) 
 
 ## 6. Conclusion
 Based on the result of the best performing model,
