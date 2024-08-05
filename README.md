@@ -1,4 +1,4 @@
-![cover_photo](Pictures\ai-generated-8774130_1280.jpg")
+![cover_photo](ai-generated-HEd.jpg)
 # A Model for Classifying Colleges/Universities Based on Awards Issued
 
 When choosing a higher education institution to attend in the United States, prospective students take into account many aspects such as the availability of financial aid, institutional governance (public vs. private), and/or degree options. For individuals who may not be well-informed about what is available, this could be a confusing encounter. With a high degree of accuracy, this classification model seeks to classify these institutions based on nuber of awards given for every 100 full-time enrolled students, assisting prospective students and their families in making well-informed decisions.
