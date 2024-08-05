@@ -26,24 +26,24 @@ The findings reported were obtained after using [PyCaret](https://pycaret.org/) 
 
   5.1. Performance of Models:
 
-  ![Models' performances](Model Performances.PNG) 
+  ![Models' performances](Model Performances.JPG) 
 
   The best best model was CatBoost, with the following results after hyperparameter tuning:
 
-  ![Best score](Best Model cb.PNG)
+  ![Best score](Best Model cb.JPG)
 	
   5.2. ROC Curve of the CatBoostClassifier:
 
-  ![ROC curve](ROC Curve_cb.png)
+  ![ROC curve](ROC Curve_cb.jpg)
   
   5.3. Reliability Curve:
 
-  ![Reliability Curve](Reliability Curve cb.png)
+  ![Reliability Curve](Reliability Curve cb.jpg)
 
 
   5.4. Important Features:
 
-  ![Important Features](Feature Import cb.png)
+  ![Important Features](Feature Import cb.jpg)
 
 ## 6. Conclusion
 Based on the result of the best performing model,
