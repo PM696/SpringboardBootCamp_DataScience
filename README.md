@@ -28,12 +28,11 @@ The findings reported were obtained after using [PyCaret](https://pycaret.org/) 
 
   ![Models' performances](Model-Performances.JPG) 
 
-  The best performing model was CatBoostClassifier, with the following results after hyperparameter tuning:
+  - The best performing model was CatBoostClassifier, with the following results after hyperparameter tuning:
 
   ![Best score](Best-Model-cb.JPG)
 
-> ![NOTE] 
-CatBoostClassifier is very expensive compared to the other models.
+ - CatBoostClassifier is very expensive compared to the other models.
 
 > ***5.2. ROC Curve of the CatBoostClassifier:***
 
