@@ -23,7 +23,9 @@ The dataset used was originally authored by [Jonathan Ortiz](https://data.world/
 [testing/Training Notebook](HigherEd_Awards_Capstone_Project/HigherEd_Awards_Data_Wrangling.ipynb) 
 
 ## 6. Conclusion
- 
-
+Based on the result of the best performing model,
+ -* We can classify higher education institutions that have a high number of awards with an accuracy of 83%.
+ -* We can classify institutions that have a low number of awards issued with 79% accuracy.
+Although the model falls short of the intended target of at least 90% accuracy, the CatBoostClassifier is an effective model in classifying higher education institutions based on the number of awards issued for every 100 full-time undergraduate students.
 ## 7. Further Recommendations
 
