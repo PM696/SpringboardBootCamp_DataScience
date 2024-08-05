@@ -32,7 +32,7 @@ The findings reported were obtained after using [PyCaret](https://pycaret.org/) 
 
   ![Best score](Best-Model-cb.JPG)
 
-> ![NOTE]
+> ![NOTE] 
 CatBoostClassifier is very expensive compared to the other models.
 
 > ***5.2. ROC Curve of the CatBoostClassifier:***
