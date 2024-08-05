@@ -31,5 +31,6 @@ Although the model falls short of the intended target of at least 90% accuracy, 
 ## 7. Further Recommendations
 * Explore additional hyperparameters and maybe ensemble methods to improve the accuracy of the model.
 
+> [!NOTE]
 **Acknowledgements:**
-I acknowledge my mentor Amir Parizi for guiding me through this Springboard Bootcamp process. I greatly appreciated it. Also, I acknowledge the instructional Faculty at Datacamp.  
+I acknowledge my mentor @AmirParizi for guiding me through this Springboard Bootcamp process. I greatly appreciated it. Also, I acknowledge the instructional Faculty at @Datacamp.  
