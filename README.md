@@ -29,7 +29,7 @@ Based on the result of the best performing model,
 
 Although the model falls short of the intended target of at least 90% accuracy, the CatBoostClassifier is an effective model in classifying higher education institutions based on the number of awards issued for every 100 full-time undergraduate students.
 ## 7. Further Recommendations
-* Explore additional hyperparameters and maybe ensemble methods to improve the accuracy of the model.
+> * Explore additional hyperparameters and maybe ensemble methods to improve the accuracy of the model.
 
 > [!NOTE]
 **Acknowledgements:**
