@@ -21,13 +21,15 @@ The dataset used was originally authored by [Jonathan Ortiz](https://data.world/
 
 ## 5. Modelling and Tuning
 [Model Training/Testing Notebook](HigherEd_Awards_Capstone_Project/HigherED_Awards_ClassificationModels.ipynb) 
+The findings reported were obtained after using [PyCaret](https://pycaret.org/) library to train and test the dataset. [PyCaret](https://pycaret.org/) provides an easy way to compare multiple machine learning models across various metrics and selects the best model with low amount of coding. 
+
 
 ## 6. Conclusion
 Based on the result of the best performing model,
  * We can classify higher education institutions that have a high number of awards with an accuracy of 83%.
  * We can classify institutions that have a low number of awards issued with 79% accuracy.
 
-Although the model falls short of the intended target of at least 90% accuracy, the CatBoostClassifier is an effective model in classifying higher education institutions based on the number of awards issued for every 100 full-time undergraduate students.
+Although the model falls short of the intended target of at least 90% accuracy, the [CatBoostClassifier](https://catboost.ai/en/docs/concepts/python-reference_catboostclassifier) is an effective model in classifying higher education institutions based on the number of awards issued for every 100 full-time undergraduate students.
 ## 7. Further Recommendations
 > * Explore additional hyperparameters and maybe ensemble methods to improve the accuracy of the model.
 
