@@ -22,27 +22,34 @@ The dataset used was originally authored by [Jonathan Ortiz](https://data.world/
 ## 5. Modelling and Tuning
 [Model Training/Testing Notebook](HigherEd_Awards_Capstone_Project/HigherED_Awards_ClassificationModels.ipynb) 
 
-The findings reported were obtained after using [PyCaret](https://pycaret.org/) library to train and test the dataset. [PyCaret](https://pycaret.org/) provides an easy way to compare multiple machine learning models across various metrics and selects the best model with low amount of coding.
+The findings reported were obtained after using [PyCaret](https://pycaret.org/) library to train and test the dataset. [PyCaret](https://pycaret.org/) provides an easy way to compare multiple machine learning models across various metrics and selects the best model with low amount of coding. See results in the following subsections:
 
-> *5.1. Performance of Models:*
+> ***5.1. Performance of Models:***
 
   ![Models' performances](Model-Performances.JPG) 
 
-  The best best model was CatBoost, with the following results after hyperparameter tuning:
+  The best performing model was CatBoostClassifier, with the following results after hyperparameter tuning:
 
   ![Best score](Best-Model-cb.JPG)
-	
-> *5.2. ROC Curve of the CatBoostClassifier:*
+
+![NOTE]: CatBoostClassifier is very expensive compared to the other models.
+
+> ***5.2. ROC Curve of the CatBoostClassifier:***
 
   ![ROC curve](ROC-Curve-cb.jpg)
-  
-> *5.3. Reliability Curve:*
+- The CatBoostClassifier model performs significantly better than random guessing.
+- The micro-average ROC curve reflects the model’s overall performance across all classes and samples. With AUC = 0.89, the model is slightly better performing when considering the overall dataset. While the macro-average AUC suggests a balanced performance across both classes without being skewed by class imbalance.
+
+> ***5.3. Reliability Curve:***
 
   ![Reliability Curve](Reliability-Curve-cb.jpg)
+- The model is well calibrated, especially in the extreme ends (low and high probabilities). There are some discrepancies in the mid-range probabilities where the model under/overestimates the likelihood of positive outcomes.
+- Though the model’s probability predictions are mostly reliable, there are areas where calibration could be improved.
 
-> *5.4. Important Features:*
+> ***5.4. Important Features:***
 
   ![Important Features](Feature-Import-cb.jpg)
+> The feature importance plot clearly indicates that financial metrics (such as exp_award_value, awards_per_state_value, and aid_value) and student success indicators (like grad_100_value and grad_150_value) are paramount in predicting the number of awards issued per 100 full-time undergraduate students. The contributions from faculty and the structure of student enrollment (ft_fac_value, ft_pct and cohort_size) also play significant roles, providing a comprehensive view of the factors influencing award distribution in higher education institutions.
 
 ## 6. Conclusion
 Based on the result of the best performing model,
