@@ -24,7 +24,7 @@ The dataset used was originally authored by [Jonathan Ortiz](https://data.world/
 
 The findings reported were obtained after using [PyCaret](https://pycaret.org/) library to train and test the dataset. [PyCaret](https://pycaret.org/) provides an easy way to compare multiple machine learning models across various metrics and selects the best model with low amount of coding.
 
-  5.1. Performance of Models:
+	### 5.1. Performance of Models:
 
   ![Models' performances](Model-Performances.JPG) 
 
@@ -32,15 +32,15 @@ The findings reported were obtained after using [PyCaret](https://pycaret.org/) 
 
   ![Best score](Best-Model-cb.JPG)
 	
-  5.2. ROC Curve of the CatBoostClassifier:
+  	### 5.2. ROC Curve of the CatBoostClassifier:
 
   ![ROC curve](ROC-Curve-cb.jpg)
   
-  5.3. Reliability Curve:
+	### 5.3. Reliability Curve:
 
   ![Reliability Curve](Reliability-Curve-cb.jpg)
 
-  5.4. Important Features:
+	### 5.4. Important Features:
 
   ![Important Features](Feature-Import-cb.jpg)
 
