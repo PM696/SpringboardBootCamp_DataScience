@@ -11,4 +11,19 @@ The dataset used was originally authored by [Jonathan Ortiz](https://data.world/
 
 ## 2. Data Wrangling
 
+[Data Wrangling Notebook](HigherEd_Awards_Capstone_Project/HigherEd_Awards_Data_Wrangling.ipynb) 
+
+## 3. Exploratory Data Analysis
+[Data Wrangling Notebook](HigherEd_Awards_Capstone_Project/HigherEd_Awards_Data_Wrangling.ipynb)
+
+## 4. Data Pre-processing
+[Data Wrangling Notebook](HigherEd_Awards_Capstone_Project/HigherEd_Awards_Data_Wrangling.ipynb) 
+
+## 5. Model Training and Testing
+[Data Wrangling Notebook](HigherEd_Awards_Capstone_Project/HigherEd_Awards_Data_Wrangling.ipynb) 
+
+## 6. Conclusion
+[Data Wrangling Notebook](HigherEd_Awards_Capstone_Project/HigherEd_Awards_Data_Wrangling.ipynb) 
+
+## 7. Further Recommendations
 [Data Wrangling Notebook](HigherEd_Awards_Capstone_Project/HigherEd_Awards_Data_Wrangling.ipynb)
