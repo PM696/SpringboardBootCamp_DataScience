@@ -14,13 +14,13 @@ The dataset used was originally authored by [Jonathan Ortiz](https://data.world/
 [Data Wrangling Notebook](HigherEd_Awards_Capstone_Project/HigherEd_Awards_Data_Wrangling.ipynb) 
 
 ## 3. Exploratory Data Analysis
-[EDA Notebook](HigherEd_Awards_Capstone_Project/HigherEd_Awards_Data_Wrangling.ipynb)
+[EDA Notebook](HigherEd_Awards_Capstone_Project/HigherEd_Awards_EDA.ipynb)
 
 ## 4. Data Pre-processing
-[Preprocessing Notebook](HigherEd_Awards_Capstone_Project/HigherEd_Awards_Data_Wrangling.ipynb) 
+[Preprocessing Notebook](HigherEd_Awards_Capstone_Project/HigherED_Awards_Preprocessing.ipynb) 
 
-## 5. Model Training and Testing
-[testing/Training Notebook](HigherEd_Awards_Capstone_Project/HigherEd_Awards_Data_Wrangling.ipynb) 
+## 5. Modelling and Tuning
+[testing/Training Notebook](HigherEd_Awards_Capstone_Project/HigherED_Awards_ClassificationModels.ipynb) 
 
 ## 6. Conclusion
 Based on the result of the best performing model,
