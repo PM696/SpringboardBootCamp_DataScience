@@ -76,4 +76,4 @@ Although the model falls short of the intended target of at least 90% accuracy, 
 
 > [!NOTE]
 **Acknowledgements:**
-I acknowledge my mentor @AmirParizi for guiding me through this Springboard Bootcamp process. I greatly appreciated it. Also, I acknowledge the instructional Faculty at @Datacamp.  
+I acknowledge my mentor [@AmirParizi](https://www.linkedin.com/in/amir-parizi-29b532174/) for guiding me through this [Springboard](https://www.springboard.com/landing/home-choices/) Bootcamp process. I greatly appreciated it. Also, I acknowledge the instructional Faculty at @Datacamp.  
