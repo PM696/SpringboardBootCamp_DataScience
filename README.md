@@ -21,7 +21,12 @@ The dataset used was originally authored by [Jonathan Ortiz](https://data.world/
 ## 3. Exploratory Data Analysis
 [EDA Notebook](HigherEd_Awards_Capstone_Project/HigherEd_Awards_EDA.ipynb)
 - Distribution of institutions per State was as shown in the following plot:
-  ![barh plot](barh-plot.jpg)
+  ![line plot](Institution-distribution-per-state.jpg)
+- There were more 4-year institutions compared to 2-year institutions.
+- Forty-percent of the institutions were identified as Public institutions.
+- descriptive statistics are displayed below:
+  ![descriptive statistics](descriptive-statistics.JPG)
+- The above statistics represent the raw data including possible outliers.
 ## 4. Data Pre-processing
 [Preprocessing Notebook](HigherEd_Awards_Capstone_Project/HigherED_Awards_Preprocessing.ipynb) 
 - **Data tranformation:** A new column, 'num_awards_given', was created by binning the target variable 'awards_per_value' into two classes: 'Low' (0-20) and 'High' (21-40). The original 'awards_per_value' column was dropped.
