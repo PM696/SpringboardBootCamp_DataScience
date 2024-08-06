@@ -24,7 +24,7 @@ The dataset used was originally authored by [Jonathan Ortiz](https://data.world/
   ![line plot](Institution-distribution-per-state.jpg)
 - There were more 4-year institutions compared to 2-year institutions.
 - Forty-percent of the institutions were identified as Public institutions.
-- descriptive statistics are displayed below:
+- Descriptive statistics are displayed below:
   ![descriptive statistics](descriptive-statistics.JPG)
 - The above statistics represent the raw data including possible outliers.
 ## 4. Data Pre-processing
@@ -69,6 +69,8 @@ Based on the result of the best performing model,
  * We can classify institutions that have a low number of awards issued with 79% accuracy.
 
 Although the model falls short of the intended target of at least 90% accuracy, the [CatBoostClassifier](https://catboost.ai/en/docs/concepts/python-reference_catboostclassifier) is an effective model in classifying higher education institutions based on the number of awards issued for every 100 full-time undergraduate students.
+
+- Read more in this [slide deck](HigherEd_Awards_Capstone_Project/HigherEd_Awards_TheDataStory).
 ## 7. Further Recommendations
 > * Explore additional hyperparameters and maybe ensemble methods to improve the accuracy of the model.
 
