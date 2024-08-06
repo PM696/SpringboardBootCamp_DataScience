@@ -12,13 +12,20 @@ The dataset used was originally authored by [Jonathan Ortiz](https://data.world/
 ## 2. Data Wrangling
 
 [Data Wrangling Notebook](HigherEd_Awards_Capstone_Project/HigherEd_Awards_Data_Wrangling.ipynb) 
+-	**Duplicate Entries:** No duplicate entries were found in the dataset.
+-	**Missing Data:** Columns with more than 90% missing values were dropped. The missing values in ‘flagship’ and ‘hbcu’ columns were filled with ‘no’ to indicate that the institution was not a flagship or not a HBCU. Numeric columns with missing values were imputed with the mean.
+-	**Outliers:** Outliers were removed based on the Interquartile Range (IQR) method.
+-	**Encoding:** Non-numeric variables including 'level', 'control', 'basic', 'hbcu', and 'flagship' were encoded using [OneHotEncoder](https://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.OneHotEncoder.html).
+-	The resulting datset contained 3798 records and 40 variables.
 
 ## 3. Exploratory Data Analysis
 [EDA Notebook](HigherEd_Awards_Capstone_Project/HigherEd_Awards_EDA.ipynb)
-
+- Distribution of institutions per State was as shown in the following plot:
+  ![barh plot](barh-plot.jpg)
 ## 4. Data Pre-processing
 [Preprocessing Notebook](HigherEd_Awards_Capstone_Project/HigherED_Awards_Preprocessing.ipynb) 
-
+- **Data tranformation:** A new column, 'num_awards_given', was created by binning the target variable 'awards_per_value' into two classes: 'Low' (0-20) and 'High' (21-40). The original 'awards_per_value' column was dropped.
+- **Train/Test Split:** Dataset was split into 80% train set and 20% test set. Data were scaled using the StandardScaler() method.
 ## 5. Modelling and Tuning
 [Model Training/Testing Notebook](HigherEd_Awards_Capstone_Project/HigherED_Awards_ClassificationModels.ipynb) 
 
