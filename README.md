@@ -71,7 +71,12 @@ Based on the result of the best performing model,
 Although the model falls short of the intended target of at least 90% accuracy, the [CatBoostClassifier](https://catboost.ai/en/docs/concepts/python-reference_catboostclassifier) is an effective model in classifying higher education institutions based on the number of awards issued for every 100 full-time undergraduate students.
 
 - Read more in this [slide deck](HigherEd_Awards_Capstone_Project/HigherEd_Awards_TheDataStory).
-## 7. Further Recommendations
+
+## 7. Web App Development with Streamlit
+
+The trained model was used to developed a Web Application using [Streamlit](https://streamlit.io/) and GitHub Codespaces. See code [here](https://github.com/PM696/SpringboardBootCamp_DataScience/blob/main/HigherEd_Awards_Capstone_Project/HigherEd_Awards_Streamlit_App%20Development) .
+
+## 8. Further Recommendations
 > * Explore additional hyperparameters and maybe ensemble methods to improve the accuracy of the model.
 
 > [!NOTE]
